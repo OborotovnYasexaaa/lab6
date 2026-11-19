@@ -44,7 +44,7 @@ class MainWindow(QMainWindow):
         input_layout.addWidget(self.lEdit)
         input_layout.addWidget(self.button_plus)
 
-        buttons_layout=QHBoxLayout()            # строка 2
+        buttons_layout=QHBoxLayout()           
         buttons_layout.addWidget(self.button_minus)
         buttons_layout.addWidget(self.but_clear)
 
